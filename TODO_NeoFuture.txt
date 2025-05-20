@@ -1,0 +1,16 @@
+✅ TODO LIST – aktualizace 1.5.18
+
+[x] Opravit obalení <App /> do <UserContextProvider> (index.js)
+[x] PWAInstallButton – kompletní oprava události beforeinstallprompt + fallback + odregistrace
+[x] Kontrola serviceWorkerRegistration – OK, není potřeba upravovat
+[x] Doplnění devDependencies (ESLint, Prettier, Jest, Testing Library)
+[x] Přidání konfiguračních souborů pro ESLint a Prettier
+[x] Vytvoření složky __tests__ a základního testu pro App.js
+[x] Kontrola a modularizace CSS – ponecháno jako jednoduché globální styly
+[x] Oprava .env.example – odstranění citlivého hesla
+[x] Sidebar – odstraněn překlep v exportu, vše ostatní v pořádku
+
+🔜 Možnosti do budoucna:
+[ ] Doplnit další testy pro důležité komponenty (AdminPanel, Context)
+[ ] Modularizace stylů pomocí CSS Modules
+[ ] Automatické nasazení (CI/CD)
